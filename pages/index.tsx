@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Nav from '../src/components/Nav'
 import ActorListWrapper from '@/src/components/ActorList'
+import ClanList from '@/src/components/ClanList'
 import dynamic from 'next/dynamic'
 
 // const LabelPro = dynamic(() => import(('stockbitApp/label')).catch(err => {
@@ -33,6 +34,7 @@ export default function Home() {
         {/* <LabelPro /> */}
         <ActorListWrapper />
         {/* <Benefit /> */}
+        <ClanList />
       </main>
     </>
   )

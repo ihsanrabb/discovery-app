@@ -20,7 +20,8 @@ const nextConfig = {
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
           './nav': './src/components/Nav.tsx',
-          './actorList': './src/components/ActorList.tsx'
+          './actorList': './src/components/ActorList.tsx',
+          './clan-list': './src/components/ClanList.tsx'
         }
       })
     )
